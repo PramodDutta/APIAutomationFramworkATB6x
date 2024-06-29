@@ -34,4 +34,8 @@ public class AssertActions {
                 "value of status code is" + response.getStatusCode());
     }
 
+    public void verifyStatusCode(Response response,Integer expected) {
+        assertEquals(response.getStatusCode(),expected);
+    }
+
 }

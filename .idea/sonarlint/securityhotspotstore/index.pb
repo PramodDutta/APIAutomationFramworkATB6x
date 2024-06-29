@@ -29,3 +29,8 @@ x
 Hsrc/test/java/com/thetestingacademy/tests/integration/TCIntegration.java,6/f/6f114610c43347c76afc9d66cac821673f305ae5
 f
 6src/test/java/com/thetestingacademy/base/BaseTest.java,3/e/3e47a667b7242763a436cffb4a9a33ccee937ced
+y
+Isrc/test/java/com/thetestingacademy/tests/crud/testCreateBookingPOST.java,c/7/c717421bf5ef54b094d16d7eac462ab4718a0614
+:
+
+testng.xml,5/2/522a7a4e21649af06297e31a9e33f13bb4fd3022

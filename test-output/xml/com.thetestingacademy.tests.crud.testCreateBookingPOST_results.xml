@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="/Users/promode/IdeaProjects/APIAutomationATB6x"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.281">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testCreateBookingNegative"
+                time="1.336"
+                classname="com.thetestingacademy.tests.crud.testCreateBookingPOST">
+            </testcase>
+            <testcase
+                name="testCreateBooking"
+                time="1.945"
+                classname="com.thetestingacademy.tests.crud.testCreateBookingPOST">
+            </testcase>
+</testsuite>
