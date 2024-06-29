@@ -12,14 +12,15 @@ API Automation Framework with the CRUD of Restful Booker
 
 ## Tech Stack
 
-1. Rest Assured
-2. Java
-3. Apache POI, TestNG, Maven
-4. Jackson and GSON
-5. Log42
-6. Allure Report
-7. Full Folder Structure(Hybrid) Framework.
-8. Jenkins File
+1. Java ( JDK > 17)
+2. Rest Assured
+3. Apache POI, TestNG, Maven.
+4. AssertJ (Advance assertions)
+5. Jackson and GSON
+6. Log4j
+7. Allure Report
+8. Full Folder Structure(Hybrid) Framework.
+9. Jenkins File
 
 #### API Framework Important Components
 ![Screenshot 2024-06-29 at 12 44 29](https://github.com/PramodDutta/APIAutomationFramworkATB6x/assets/1409610/98bbc62d-7837-4bdc-900b-b214c675af6d)
