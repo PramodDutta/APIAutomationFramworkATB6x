@@ -24,7 +24,7 @@ API Automation Framework with the CRUD of Restful Booker
 #### API Framework Important Components
 ![Screenshot 2024-06-29 at 12 44 29](https://github.com/PramodDutta/APIAutomationFramworkATB6x/assets/1409610/98bbc62d-7837-4bdc-900b-b214c675af6d)
 
-#### Folder Structure
+#### Running via CI/CD
 <img width="1262" alt="Screenshot 2023-10-31 at 12 26 07 PM" src="https://github.com/PramodDutta/APIAutomationRestAssured/assets/1409610/2d58bf82-0ffb-4fcb-a2d9-cf26920fa7b5">
 
 
