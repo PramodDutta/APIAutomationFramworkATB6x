@@ -21,25 +21,23 @@ API Automation Framework with the CRUD of Restful Booker
 7. Full Folder Structure(Hybrid) Framework.
 8. Jenkins File
 
+#### API Framework Important Components
+![Screenshot 2024-06-29 at 12 44 29](https://github.com/PramodDutta/APIAutomationFramworkATB6x/assets/1409610/98bbc62d-7837-4bdc-900b-b214c675af6d)
+
+#### Folder Structure
 <img width="1262" alt="Screenshot 2023-10-31 at 12 26 07 PM" src="https://github.com/PramodDutta/APIAutomationRestAssured/assets/1409610/2d58bf82-0ffb-4fcb-a2d9-cf26920fa7b5">
 
 
 Run
 
-
-
-## Basic Create Test
+### Basic Create Test
 ```mvn clean test```
-
- API Framework Important Components
-![Screenshot 2024-06-29 at 12 44 29](https://github.com/PramodDutta/APIAutomationFramworkATB6x/assets/1409610/98bbc62d-7837-4bdc-900b-b214c675af6d)
-
 
 ## Integration Test (Create BookinG and Create Token , Update and Delete Booking)
 
 mvn clean test -DsuiteXmlFile=testng-integration.xml
 
-Allure Report Generated.
+### Allure Report Generated.
 ```allure serve allure-results/```
 
 ![image](https://github.com/PramodDutta/APIAutomationFramworkATB6x/assets/1409610/79ba2093-a1b7-4b36-ba16-9a6827af7afe)
