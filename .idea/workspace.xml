@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca371380-1d22-4aa5-a258-9748a80167a1" name="Changes" comment="Added a basic Structure" />
+    <list default="true" id="ca371380-1d22-4aa5-a258-9748a80167a1" name="Changes" comment="Added a basic Structure">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/listeners/RetryAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/listeners/RetryListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/listeners/TestNGListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/listeners/extentManager/ExtentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/integration/extentTest/TCIntegrationFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/integration/retrylogic/TCIntegrationFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resource/extent-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-integration-retry.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suite0_groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite0_groups.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng-integration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-integration.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +65,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "TestNG./Users/promode/IdeaProjects/APIAutomationATB6x/testng.xml.executor": "Run",
+    "TestNG./Users/promode/IdeaProjects/ATB6x/testng-integration-retry.xml.executor": "Run",
     "TestNG./Users/promode/IdeaProjects/ATB6x/testng-integration.xml.executor": "Run",
     "TestNG.TCIntegrationFlow.testUpdateBookingByID.executor": "Run",
     "git-widget-placeholder": "main",
@@ -64,11 +79,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pojos" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thetestingacademy.tests.integration.extentTest" />
+      <recent name="com.thetestingacademy.tests.integration.retrylogic" />
       <recent name="com.thetestingacademy.utils" />
       <recent name="com.thetestingacademy.tests.integration" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/promode/IdeaProjects/ATB6x/testng-integration.xml">
+  <component name="RunManager" selected="TestNG./Users/promode/IdeaProjects/ATB6x/testng-integration-extent.xml">
     <configuration name="TCIntegrationFlow.testUpdateBookingByID" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationATB6x" />
       <extension name="coverage">
@@ -97,6 +114,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/promode/IdeaProjects/ATB6x/testng-integration-extent.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationATB6x" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-integration-extent.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/promode/IdeaProjects/ATB6x/testng-integration-retry.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationATB6x" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-integration-retry.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/promode/IdeaProjects/ATB6x/testng-integration.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationATB6x" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-integration.xml" />
@@ -109,6 +146,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/promode/IdeaProjects/ATB6x/testng-integration-extent.xml" />
+        <item itemvalue="TestNG./Users/promode/IdeaProjects/ATB6x/testng-integration-retry.xml" />
         <item itemvalue="TestNG./Users/promode/IdeaProjects/ATB6x/testng-integration.xml" />
         <item itemvalue="TestNG.TCIntegrationFlow.testUpdateBookingByID" />
         <item itemvalue="TestNG./Users/promode/IdeaProjects/APIAutomationATB6x/testng.xml" />

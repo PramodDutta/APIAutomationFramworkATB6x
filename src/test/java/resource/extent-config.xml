@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- Set the theme of the report: standard or dark -->
+        <theme>standard</theme>
+        <!-- Set the document encoding -->
+        <encoding>UTF-8</encoding>
+        <!-- Set the title of the document -->
+        <documentTitle>My Custom Report Title</documentTitle>
+        <!-- Set the name of the report -->
+        <reportName>My Custom Report</reportName>
+        <!-- Set custom CSS for additional styling -->
+        <styles>
+            .test { background-color: #f0f0f0; color: #333; }
+            .pass { color: green; }
+            .fail { color: red; }
+        </styles>
+    </configuration>
+</extentreports>
