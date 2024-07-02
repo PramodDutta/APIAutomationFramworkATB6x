@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca371380-1d22-4aa5-a258-9748a80167a1" name="Changes" comment="Added a basic Structure">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/utils/PropertyReaderOptimized.java" afterDir="false" />
-    </list>
+    <list default="true" id="ca371380-1d22-4aa5-a258-9748a80167a1" name="Changes" comment="Added a basic Structure" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
