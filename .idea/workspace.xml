@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca371380-1d22-4aa5-a258-9748a80167a1" name="Changes" comment="Added a basic Structure">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/integration/TCIntegrationFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/integration/sample/TCIntegration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/utils/PropertyReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resource/data.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-integration.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/endpoints/APIConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/endpoints/APIConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/modules/PayloadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/modules/PayloadManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/crud/testCreateBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/crud/sample/testCreateBooking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/integration/TCIntegration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/html/suite0_groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite0_groups.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/utils/PropertyReaderOptimized.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +66,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pojos" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thetestingacademy.utils" />
       <recent name="com.thetestingacademy.tests.integration" />
     </key>
   </component>
