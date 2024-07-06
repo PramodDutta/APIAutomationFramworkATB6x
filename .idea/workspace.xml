@@ -5,19 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca371380-1d22-4aa5-a258-9748a80167a1" name="Changes" comment="Added a basic Structure">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/listeners/RetryAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/listeners/RetryListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/listeners/TestNGListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/listeners/extentManager/ExtentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/integration/extentTest/TCIntegrationFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/integration/retrylogic/TCIntegrationFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resource/extent-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-integration-retry.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/ddt/VWOLoginPOJO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/ddt/vwoLoginAPITC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/extendDemo/ExtentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/extendDemo/TCIntegrationFlowExtent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/extendDemo/TestNGListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/extendDemo/testng-extent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/misc/parrallel/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/misc/parrallel/MainClass2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/misc/parrallel/testng-parrallel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/utils/UtilsExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resource/TD.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-ddt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/html/suite0_groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite0_groups.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng-integration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-integration.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +44,12 @@
     &quot;assignee&quot;: &quot;PramodDutta&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/PramodDutta/APIAutomationFramworkATB6x.git",
-    "accountId": "ac8ec683-3fc5-4881-b590-32a168b1c3af"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PramodDutta/APIAutomationFramworkATB6x.git&quot;,
+    &quot;accountId&quot;: &quot;ac8ec683-3fc5-4881-b590-32a168b1c3af&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -65,48 +68,60 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "TestNG./Users/promode/IdeaProjects/APIAutomationATB6x/testng.xml.executor": "Run",
+    "TestNG./Users/promode/IdeaProjects/ATB6x/src/test/java/com/thetestingacademy/tests/extendDemo/testng-extent.xml.executor": "Run",
+    "TestNG./Users/promode/IdeaProjects/ATB6x/src/test/java/com/thetestingacademy/tests/misc/parrallel/testng-parrallel.xml.executor": "Run",
+    "TestNG./Users/promode/IdeaProjects/ATB6x/testng-ddt.xml.executor": "Run",
+    "TestNG./Users/promode/IdeaProjects/ATB6x/testng-integration-extent.xml.executor": "Run",
     "TestNG./Users/promode/IdeaProjects/ATB6x/testng-integration-retry.xml.executor": "Run",
     "TestNG./Users/promode/IdeaProjects/ATB6x/testng-integration.xml.executor": "Run",
     "TestNG.TCIntegrationFlow.testUpdateBookingByID.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/promode/IdeaProjects/ATB6x"
+    "last_opened_file_path": "/Users/promode/IdeaProjects/ATB6x/src/test/java/com/thetestingacademy/tests/extendDemo"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/extendDemo" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/misc/parrallel" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pojos" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/resource" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thetestingacademy.tests.extendDemo" />
+      <recent name="com.thetestingacademy.tests.misc.parrallel" />
       <recent name="com.thetestingacademy.tests.integration.extentTest" />
       <recent name="com.thetestingacademy.tests.integration.retrylogic" />
       <recent name="com.thetestingacademy.utils" />
-      <recent name="com.thetestingacademy.tests.integration" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/promode/IdeaProjects/ATB6x/testng-integration-extent.xml">
-    <configuration name="TCIntegrationFlow.testUpdateBookingByID" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG./Users/promode/IdeaProjects/ATB6x/testng-integration-retry.xml">
+    <configuration name="/Users/promode/IdeaProjects/ATB6x/src/test/java/com/thetestingacademy/tests/extendDemo/testng-extent.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationATB6x" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.tests.integration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thetestingacademy.tests.integration" />
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.tests.integration.TCIntegrationFlow" />
-      <option name="METHOD_NAME" value="testUpdateBookingByID" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/extendDemo/testng-extent.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/promode/IdeaProjects/APIAutomationATB6x/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/promode/IdeaProjects/ATB6x/src/test/java/com/thetestingacademy/tests/misc/parrallel/testng-parrallel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationATB6x" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/misc/parrallel/testng-parrallel.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/promode/IdeaProjects/ATB6x/testng-ddt.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationATB6x" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-ddt.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -134,23 +149,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/promode/IdeaProjects/ATB6x/testng-integration.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationATB6x" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-integration.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/promode/IdeaProjects/ATB6x/testng-integration-extent.xml" />
         <item itemvalue="TestNG./Users/promode/IdeaProjects/ATB6x/testng-integration-retry.xml" />
-        <item itemvalue="TestNG./Users/promode/IdeaProjects/ATB6x/testng-integration.xml" />
-        <item itemvalue="TestNG.TCIntegrationFlow.testUpdateBookingByID" />
-        <item itemvalue="TestNG./Users/promode/IdeaProjects/APIAutomationATB6x/testng.xml" />
+        <item itemvalue="TestNG./Users/promode/IdeaProjects/ATB6x/src/test/java/com/thetestingacademy/tests/extendDemo/testng-extent.xml" />
+        <item itemvalue="TestNG./Users/promode/IdeaProjects/ATB6x/src/test/java/com/thetestingacademy/tests/misc/parrallel/testng-parrallel.xml" />
+        <item itemvalue="TestNG./Users/promode/IdeaProjects/ATB6x/testng-ddt.xml" />
+        <item itemvalue="TestNG./Users/promode/IdeaProjects/ATB6x/testng-integration-extent.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -188,5 +193,31 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added a basic Structure" />
     <option name="LAST_COMMIT_MESSAGE" value="Added a basic Structure" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/thetestingacademy/utils/UtilsExcel.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/thetestingacademy/utils/UtilsExcel.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/thetestingacademy/utils/UtilsExcel.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/thetestingacademy/utils/UtilsExcel.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

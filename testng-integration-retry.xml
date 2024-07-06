@@ -6,7 +6,7 @@
     </listeners>
     <test verbose="2" preserve-order="true" name="APIAutomationATB6x">
         <classes>
-            <class name="com.thetestingacademy.tests.integration.retrylogic.TCIntegrationFlow">
+            <class name="com.thetestingacademy.tests.integration.retrylogic.TCIntegrationFlowRetry">
             </class>
         </classes>
     </test>

@@ -1,8 +1,7 @@
-package com.thetestingacademy.tests.integration.retrylogic;
+package com.thetestingacademy.tests.extendDemo;
 
 import com.thetestingacademy.base.BaseTest;
 import com.thetestingacademy.endpoints.APIConstants;
-import com.thetestingacademy.listeners.RetryAnalyzer;
 import com.thetestingacademy.pojos.Booking;
 import com.thetestingacademy.pojos.BookingResponse;
 import com.thetestingacademy.utils.PropertyReader;
@@ -14,8 +13,8 @@ import org.testng.ITestContext;
 import org.testng.annotations.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
-@Test(retryAnalyzer = RetryAnalyzer.class)
-public class TCIntegrationFlow extends BaseTest {
+
+public class TCIntegrationFlowExtent extends BaseTest {
 
     // Create A Booking, Create a Token
     // Get booking
@@ -121,7 +120,7 @@ public class TCIntegrationFlow extends BaseTest {
         requestSpecification.basePath(basePathDELETE).cookie("token", token);
         validatableResponse = RestAssured.given().spec(requestSpecification)
                 .when().delete().then().log().all();
-        validatableResponse.statusCode(200);
+        validatableResponse.statusCode(201);
 
 
 
