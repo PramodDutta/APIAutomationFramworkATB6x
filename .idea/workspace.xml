@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca371380-1d22-4aa5-a258-9748a80167a1" name="Changes" comment="Added a basic Structure">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/ddt/VWOLoginPOJO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/ddt/vwoLoginAPITC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/extendDemo/ExtentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/extendDemo/TCIntegrationFlowExtent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/extendDemo/TestNGListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/extendDemo/testng-extent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/misc/parrallel/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/misc/parrallel/MainClass2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/misc/parrallel/testng-parrallel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/utils/UtilsExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resource/TD.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-ddt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,30 +46,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "TestNG./Users/promode/IdeaProjects/APIAutomationATB6x/testng.xml.executor": "Run",
-    "TestNG./Users/promode/IdeaProjects/ATB6x/src/test/java/com/thetestingacademy/tests/extendDemo/testng-extent.xml.executor": "Run",
-    "TestNG./Users/promode/IdeaProjects/ATB6x/src/test/java/com/thetestingacademy/tests/misc/parrallel/testng-parrallel.xml.executor": "Run",
-    "TestNG./Users/promode/IdeaProjects/ATB6x/testng-ddt.xml.executor": "Run",
-    "TestNG./Users/promode/IdeaProjects/ATB6x/testng-integration-extent.xml.executor": "Run",
-    "TestNG./Users/promode/IdeaProjects/ATB6x/testng-integration-retry.xml.executor": "Run",
-    "TestNG./Users/promode/IdeaProjects/ATB6x/testng-integration.xml.executor": "Run",
-    "TestNG.TCIntegrationFlow.testUpdateBookingByID.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/promode/IdeaProjects/ATB6x/src/test/java/com/thetestingacademy/tests/extendDemo"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;TestNG./Users/promode/IdeaProjects/APIAutomationATB6x/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/promode/IdeaProjects/ATB6x/src/test/java/com/thetestingacademy/tests/extendDemo/testng-extent.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/promode/IdeaProjects/ATB6x/src/test/java/com/thetestingacademy/tests/misc/parrallel/testng-parrallel.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/promode/IdeaProjects/ATB6x/testng-ddt.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/promode/IdeaProjects/ATB6x/testng-integration-extent.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/promode/IdeaProjects/ATB6x/testng-integration-retry.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/promode/IdeaProjects/ATB6x/testng-integration.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TCIntegrationFlow.testUpdateBookingByID.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/promode/IdeaProjects/ATB6x&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/extendDemo" />
       <recent name="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/misc/parrallel" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pojos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
